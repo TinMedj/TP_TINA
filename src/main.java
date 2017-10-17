@@ -7,6 +7,7 @@ import java.util.Vector;
 public class main {
     public static void main(String[] args) {
 
+        //this is just a comment
 
         Vector<Integer> vec1=new Vector<Integer>();
         Vector<Integer> vec2=new Vector<Integer>();
