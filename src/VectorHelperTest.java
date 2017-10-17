@@ -11,12 +11,13 @@ public class VectorHelperTest {
 
 
     @Test
-    public void inverser_vector() throws Exception {
+    public void inverser_vect0or() throws Exception {
         Vector<Integer> input = new Vector<Integer>();
         input.addElement(3);
         input.addElement(2);
         input.addElement(1);
         input.addElement(0);
+        //hello 
         Vector<Integer> expected = new Vector<Integer>();
         expected.addElement(0);
         expected.addElement(1);
@@ -44,15 +45,33 @@ public class VectorHelperTest {
         assertEquals(input,expected);
 
     }
-
+/*
     @Test
-    public void somme2Vector() throws Exception {
-        String st = null;
+    public void somme2Vector() throws  sizeException,Exception {
+        Vector<Integer> input1 = new Vector<Integer>();
+        input1.addElement(55);
+        input1.addElement(12);
+        input1.addElement(10);
+        input1.addElement(60);
+        Vector<Integer> input2 = new Vector<Integer>();
+        input2.addElement(55);
+        input2.addElement(12);
+        input2.addElement(10);
+        input2.addElement(60);
+        Vector<Integer> output = new Vector<Integer>();
+        try{
+            VectorHelper.somme2Vector(input1,input2,output);
+
+        }
+        catch (sizeException e) {
+            assert (e.getMessage());
+
+        }
 
 
 
     }
-
+*/
     @Test
     public void min_max() throws Exception {
         Vector<Integer> input = new Vector<Integer>();

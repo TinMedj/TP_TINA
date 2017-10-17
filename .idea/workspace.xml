@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d6fb0c26-4b50-4fea-a9c5-ffc66cf44915" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VectorHelper.java" afterPath="$PROJECT_DIR$/src/VectorHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VectorHelperTest.java" afterPath="$PROJECT_DIR$/src/VectorHelperTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.java" afterPath="$PROJECT_DIR$/src/main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="VectorHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/VectorHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="160">
+              <caret line="83" column="63" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -40,19 +38,19 @@
       <file leaf-file-name="VectorHelperTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/VectorHelperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8">
-              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+            <state relative-caret-position="456">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#264#273#0" expanded="true" />
-                <element signature="e#438#447#0" expanded="true" />
-                <element signature="e#773#782#0" expanded="true" />
-                <element signature="e#951#960#0" expanded="true" />
-                <element signature="e#1377#1386#0" expanded="true" />
-                <element signature="e#1434#1443#0" expanded="true" />
-                <element signature="e#1492#1501#0" expanded="true" />
-                <element signature="e#1880#1889#0" expanded="true" />
-                <element signature="e#2054#2063#0" expanded="true" />
+                <element signature="e#265#274#0" expanded="true" />
+                <element signature="e#456#465#0" expanded="true" />
+                <element signature="e#791#800#0" expanded="true" />
+                <element signature="e#969#978#0" expanded="true" />
+                <element signature="e#1971#1980#0" expanded="true" />
+                <element signature="e#2028#2037#0" expanded="true" />
+                <element signature="e#2086#2095#0" expanded="true" />
+                <element signature="e#2474#2483#0" expanded="true" />
+                <element signature="e#2648#2657#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -566,11 +564,21 @@
       <option name="project" value="LOCAL" />
       <updated>1508252226770</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mise a jouor des testes et de la classe min_max">
+      <created>1508256837469</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1508256837469</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="VectorHelperTest - 2017.10.17 at 17h 05m 57s.xml">
+      <configuration name="VectorHelperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VectorHelperTest - 2017.10.17 at 17h 18m 03s.xml">
       <configuration name="VectorHelperTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="VectorHelperTest_inverser_vector - 2017.10.17 at 14h 03m 34s.xml">
@@ -623,7 +631,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="my first commit" />
     <MESSAGE value="my first commitsdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="my first commitsdf" />
+    <MESSAGE value="mise a jouor des testes et de la classe min_max" />
+    <option name="LAST_COMMIT_MESSAGE" value="mise a jouor des testes et de la classe min_max" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -730,8 +739,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VectorHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="160">
+          <caret line="83" column="63" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -740,19 +749,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VectorHelperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        <state relative-caret-position="456">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#264#273#0" expanded="true" />
-            <element signature="e#438#447#0" expanded="true" />
-            <element signature="e#773#782#0" expanded="true" />
-            <element signature="e#951#960#0" expanded="true" />
-            <element signature="e#1377#1386#0" expanded="true" />
-            <element signature="e#1434#1443#0" expanded="true" />
-            <element signature="e#1492#1501#0" expanded="true" />
-            <element signature="e#1880#1889#0" expanded="true" />
-            <element signature="e#2054#2063#0" expanded="true" />
+            <element signature="e#265#274#0" expanded="true" />
+            <element signature="e#456#465#0" expanded="true" />
+            <element signature="e#791#800#0" expanded="true" />
+            <element signature="e#969#978#0" expanded="true" />
+            <element signature="e#1971#1980#0" expanded="true" />
+            <element signature="e#2028#2037#0" expanded="true" />
+            <element signature="e#2086#2095#0" expanded="true" />
+            <element signature="e#2474#2483#0" expanded="true" />
+            <element signature="e#2648#2657#0" expanded="true" />
           </folding>
         </state>
       </provider>
