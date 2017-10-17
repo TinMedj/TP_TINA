@@ -94,10 +94,11 @@ public class VectorHelper {
     }
 
     /**
-     * renvoie le min et max du vecteur
-     * @param v vecteur dans lequel on veut avoir le max et min
+     * renvoir un vecteur qui contient le min et le max (min-max)
+     * @param v le vecteur sur lequel on doit faire le traitement
+     * @param output vecteur qui contient le min (0) et le max (1)
      */
-    public static void min_max(Vector<Integer> v )
+    public static void min_max(Vector<Integer> v, Vector<Integer> output )
 
     {
         int max=0; int min;
@@ -106,8 +107,8 @@ public class VectorHelper {
             if (v.elementAt(i)>max)max=v.elementAt(i);
             if (v.elementAt(i)<min)min=v.elementAt(i);
         }
-        System.out.print("\n le maximum de ce vecteur est : "+max);
-        System.out.print("\n le minimum de ce vecteur est : "+min);
+        output.addElement(min);
+        output.addElement(max);
 
     }
 
