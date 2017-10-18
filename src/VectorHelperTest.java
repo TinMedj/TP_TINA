@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 /**
  * Created by HP on 17/10/2017.
  */
-public class VectorHelperTest {
+public class VectorHelperTest {//these are testes i want to add
     @org.junit.Test
     public void inverser_vector() throws Exception {
         Vector<Integer> inppuut = new Vector<Integer>();
